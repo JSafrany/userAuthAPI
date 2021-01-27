@@ -1,0 +1,22 @@
+{
+  "name":"basicauth",
+  "version": "1.0.0",
+  "description": "An API to create, view and delete users with some basic authentication",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "js-yaml": "^4.0.0",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.4.0",
+    "sqlite3": "^5.0.1",
+    "swagger-jsdoc": "^6.0.1",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "JSafrany",
+  "license": "ISC"
+}
